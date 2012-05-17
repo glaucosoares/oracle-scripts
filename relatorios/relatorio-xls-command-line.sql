@@ -1,0 +1,1 @@
+spool c:\relatoriocsv;set verify offset echo offset heading offset termout offset pagesize 0set feedback 0set linesize 20000selectpe.id_pessoa||';'||pe.nome||';'||pe.data_emissao_identidade||';'||pe.id_sexo from pessoas pe where rownum <= 20000;spool off;
