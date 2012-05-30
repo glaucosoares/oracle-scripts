@@ -1,0 +1,1 @@
+imp usuario/senha@instancia FILE=C:\backup.dmp LOG=C:\temp_log.log FROMuser=usuario_origem touser=usuarioDestino IGNORE=y
