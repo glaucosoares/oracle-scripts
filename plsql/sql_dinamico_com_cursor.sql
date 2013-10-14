@@ -12,5 +12,6 @@ begin
     end if;
     exit when c%notfound;
   end loop;
-  close c;
+  open c;
+      dbms_output.put_line('teste');
 end;
